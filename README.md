@@ -3,8 +3,10 @@
 Para iniciar no git, primeiramente, é necessário criar um repositório no Github, para isso basta seguir os seguintes passos:
 - Criar uma conta no Github e fazer login
 - No canto superior esquerdo da tela na aba "Repositories" clicar em New
+![image](images/criaRepositorio.png)
 
 Na tela de criação de repositório é possível já inicializá-lo com o arquivo README.md , o que é recomendado, onde são detalhados as funcionalidades do projeto.
+![addReadME](images/addReadME.png)
 
 Após a criação do repositório, é necessário cloná-lo para sua máquina usando o comando `git clone`, que tem a seguinte sintaxe : 
 ```bash 
