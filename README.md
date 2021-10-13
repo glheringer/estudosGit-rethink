@@ -10,10 +10,13 @@ Após a criação do repositório, é necessário clona-lo para sua máquina usa
 ```bash 
 git clone "link do repositório"
 ```
-
+# Conceitos Importantes
 ## O que é uma branch
-Branch é basicamente a criação de  ramificação do seu código afim de realizar alte-
-rações sem prejudicar o "main code". Com a criação de uma branch funcional você pode escolher se irá realizar um `merge` dela em seu código.
+Branch é basicamente a criação de  ramificação do seu código afim de realizar alterações sem prejudicar o "main code". Com a criação de uma branch funcional você pode escolher se irá realizar um `merge` dela em seu código.
 
+## MERGE
+O merge é a fusão da sua branch atual com alguma outra branch de interesse, normalmente a main (principal).
 
-    
+## O que é um commit
+O comando commit rotula um conjunto de alterações adicionadas ao Index, Index é como chamamos o espaço onde todos os itens que damos `git add` ficam armazenados.
+
