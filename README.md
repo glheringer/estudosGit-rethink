@@ -4,9 +4,9 @@ Para iniciar no git, primeiramente, é necessário criar um repositório no Gith
 - Criar uma conta no Github e fazer login
 - No canto superior esquerdo da tela na aba "Repositories" clicar em New
 
-Na tela de criação de repositório é possível já inicializa-lo com o arquivo README.md , o que é recomendado, onde são detalhados as funcionalidades do projeto.
+Na tela de criação de repositório é possível já inicializá-lo com o arquivo README.md , o que é recomendado, onde são detalhados as funcionalidades do projeto.
 
-Após a criação do repositório, é necessário clona-lo para sua máquina usando o comando `git clone`, que tem a seguinte sintaxe : 
+Após a criação do repositório, é necessário cloná-lo para sua máquina usando o comando `git clone`, que tem a seguinte sintaxe : 
 ```bash 
 git clone "link do repositório"
 ```
@@ -32,6 +32,10 @@ git commit -m "descrição do que foi realizado"
 Adiciona rótulo aos arquivos adicionados no Index e commita.
 
 ```bash
+git commit -m "descrição do que foi realizado"
+```
+Permite editar a mensagem de log de um commit.
+```bash
 git push
 ```
 Submete ao github as alteraçoes no repositório
@@ -49,9 +53,14 @@ Exibe todos arquivos que foram adicionados no Index do repositório.
 ```bash
 git log
 ```
-Exibe todos os commits realizados.
+Exibe todos os commits realizados de forma decrescente.
 
 ```bash
 git checkout "nome da branch"
 ```
 Troca entre as branchs que você deseja trabalhar.
+
+```bash
+git revert "código do commit"
+```
+Desfaz alterações no commit, sem precisar apagá-lo.
