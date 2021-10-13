@@ -1,4 +1,4 @@
-# estudosGit-rethink
+# EstudosGit-rethink
 ## Passos iniciais para começar no Git
 Para iniciar no git, primeiramente, é necessário criar um repositório no Github, para isso basta seguir os seguintes passos:
 - Criar uma conta no Github e fazer login
@@ -20,3 +20,38 @@ O merge é a fusão da sua branch atual com alguma outra branch de interesse, no
 ## O que é um commit
 O comando commit rotula um conjunto de alterações adicionadas ao Index, Index é como chamamos o espaço onde todos os itens que damos `git add` ficam armazenados.
 
+# Comandos importantes
+```bash
+git add "arquivo"
+```
+Adiciona um arquivo no Index do repositório.
+
+```bash
+git commit -m "descrição do que foi realizado"
+```
+Adiciona rótulo aos arquivos adicionados no Index e commita.
+
+```bash
+git push
+```
+Submete ao github as alteraçoes no repositório
+
+```bash
+git pull
+```
+Traz todas as alterações que estão no github para a máquina.
+
+```bash
+git status
+```
+Exibe todos arquivos que foram adicionados no Index do repositório.
+
+```bash
+git log
+```
+Exibe todos os commits realizados.
+
+```bash
+git checkout "nome da branch"
+```
+Troca entre as branchs que você deseja trabalhar.
